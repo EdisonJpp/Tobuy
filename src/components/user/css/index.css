@@ -1,0 +1,20 @@
+div.header{
+    border-bottom: 1px solid #333;
+    height: 150px;
+}
+
+img.perfil{
+    position: relative;
+    top: 16px;
+}
+div.body.container{
+    margin-top: 10%;
+}
+.deletePost{
+    position: absolute;
+    color: red;
+    /* background: #fff; */
+    font-size: 30px;
+    right: 20px;
+    top: 20px;
+}

@@ -1,0 +1,134 @@
+header.header{
+    border-bottom: #B9BDBB solid 1px;
+    /* position: relative; */
+    /* z-index: 9; */
+    /* position: fixed; */
+    width: 100%;
+    /* background-color: #232f3e; */
+
+}
+.scrolled{
+    /* background: salmon;     */
+    border-bottom: #B9BDBB solid 1px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    /* transition: all ease 7s; */
+
+    /* box-shadow: ; */
+    /* border-bottom: .0625rem solid #e0e0e0; */
+}
+h1{
+    /* font-family: 'Pacifico', cursive; color: #B9BDBB; */
+}
+.imgLogoDiv{
+    width: 21%;
+}
+div.d-flex.align-items-center.search{
+    /* margin-left: 3%;  */
+    /* width: 50%; */
+}
+header .rigth{
+    margin-left: 4%;
+    /* margin-left: 4%; */
+    width: 92px;
+}
+
+header .rigth i{
+    font-size: 35px;
+    margin-left: 20px;
+    align-self: center;
+}
+/* .divLogin{
+    align-self: center;
+} */
+/* .login{
+    align-self: center;
+     margin-bottom: 0%;
+} */
+/* .signIn{
+    margin-bottom: 0%;
+} */
+.publicar{
+    background: #ffa35f ;
+    color:#ffff;
+}
+.publicar:hover{
+    background: #ffa35f ;
+    color:#ffff;
+}
+.blog{
+    font-size: 25px;
+}
+/* button{
+    align-self: center;
+} */
+.dropdown>.dropdown-menu {
+    top: 200%;
+    transition: 0.3s all ease-in-out;
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+    border: solid 0px;
+    top: 100%;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .dropdown li{
+      border-bottom: #eeee solid 1px;
+  }
+  /* .dropdown{
+      list-style: none;
+      text-decoration: none;
+  } */
+
+  i.far.fa-user{
+    /* font-size: 40px; */
+    font-size :24px;
+    color: #333;
+}
+/* p.inciarSesion{
+    font-size: 20px;
+} */
+I.far.fa-user-circle{
+    font-size: 35px;
+    color: #3333;
+}
+div#divHeaderLogin{
+    width: 216px;
+    /* padding: 2%; */
+    background-color:transparent;
+    /* box-shadow: 0 4px 16px rgba(20,23,28,.25); */
+
+}
+
+button.btn.btn-dark.cat{
+    background-color: #ffa35f;
+    border: none;
+
+}
+    
+.inputSearch{
+    /* width: 80%; */
+    padding-left: 61px;
+    background: #eee;
+}
+button.searchBTN{
+    position: absolute;
+    background-color: #ffa35f;
+    color: white;
+    /* left: 0px; */
+    /* right: 356px;    */
+
+    
+
+    border-radius: 0%;
+    /* border-right: 2px solid #333; */
+}
+button.searchBTN:hover{
+    color:  white;
+
+}

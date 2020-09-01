@@ -1,0 +1,47 @@
+/*i.deletePost{
+   /* width:332px;
+    height:30px; 
+    background: red;
+  }
+  i.deletePost:hover{
+    -webkit-animation: tiembla 0.1s infinite;
+  }
+  @-webkit-keyframes tiembla{
+    0%  { -webkit-transform:rotateZ(-5deg); }
+    50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+    100%{ -webkit-transform:rotateZ( 5deg); }
+  }
+*/
+  i.deletePost:hover{
+      font-size:  40px;
+      
+    }
+i.deletePost{
+      -webkit-animation: deletePost 1s infinite ;
+      z-index: 999;
+}
+@keyframes deletePost{
+	10%, 30%, 50%, 70%, 90%{
+		-webkit-transform: translateX(-5px);
+	}
+	20%, 40%, 60%, 80%{
+		-webkit-transform: translateX(5px);
+	}
+	5%, 25%, 45%, 65%, 85%{
+		-webkit-transform: translateY(-5px);
+	}
+	15%, 35%, 55%, 75%, 95%{
+		-webkit-transform: translateY(5px);
+	}
+
+	
+}
+
+.seeMyFollowers{
+  cursor: pointer;
+}
+p.seeMyFollowers:hover{
+  /* cursor: pointer; */
+  transform: scale(1.1);
+  /* background: #eeee; */
+}

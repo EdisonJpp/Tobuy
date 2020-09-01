@@ -1,0 +1,56 @@
+img.imgById{
+    width: 400px;
+    height: 404px;
+}
+
+span.indicator{
+    /* height: 22%; */
+    /* width: 61%; */
+    height: 22%;
+    width: 29%;
+}
+div.detallteRight{
+    /* width: 40%; */
+    margin-top: 50px;
+}
+div.carousel{
+    width: 60%;
+}
+div.findByIdP{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    /* width: 50%; */
+}
+div.indicador{
+    width: 100%;
+    position: absolute;
+    /* right: -212px; */
+    left: 44%;
+}
+/* li.indicadorLi{
+    /* margin-left: ; */
+
+
+div.description{
+    margin-top: 85px;
+}
+img.findIdSub:hover{
+    transition: all ease .2s;
+    transform: scale(1.1);
+}
+
+.findIdSub{
+
+    transition: all ease .2s;
+    width: 60px;
+    border-radius: 5%;
+}
+img.findIdSub:link{
+    border: solid 4px black ;
+
+    /* transition: all ease .2s; */
+    width: 160px;
+    /* border-radius: 5%; */
+}
